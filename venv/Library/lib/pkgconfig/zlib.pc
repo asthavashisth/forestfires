@@ -1,0 +1,13 @@
+prefix=E:/linear regression/venv/Library
+exec_prefix=E:/linear regression/venv/Library
+libdir=E:/linear regression/venv/Library/lib
+sharedlibdir=E:/linear regression/venv/Library/lib
+includedir=E:/linear regression/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
